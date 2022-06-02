@@ -1,0 +1,41 @@
+
+.heads {
+    font-family: 'Bitter', serif;
+    color:#008500;
+}
+.intro {
+    font-family: 'Open Sans', sans-serif;
+}
+span {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+}
+.image {
+    height: 300px;
+   
+    
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    width: 640px;
+   
+}
+ul{
+    font-family: 'Open Sans', sans-serif;
+}
+div{
+    font-family: 'Open Sans', sans-serif;
+}
+h2{
+    color:#008500;
+}
+div{
+    padding: 3px;
+}
+a{
+    color: black;
+}
+footer{
+    font-family: 'Open Sans', sans-serif;
+    font-size: smaller;
+}
