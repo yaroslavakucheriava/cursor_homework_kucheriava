@@ -308,35 +308,21 @@ color: #101010;
     line-height: 14px;
     color: #121212;    
 }
-.icon{
-position: absolute;
-left: 29.17%;
-right: 25%;
-top: 8.33%;
-bottom: 8.33%;
-background: #101010;
-}
+
 .icon_1{
+position: absolute;
 padding-top: 200px;
 padding-left: 738px;    
 }
 .icon_2{
     position: absolute;
-    left: 8.33%;
-    right: 8.33%;
-    top: 8.33%;
-    bottom: 12.5%;
-    padding-top: 1158px;
-    padding-left: 650px;
+    padding-top: 201px;
+    padding-left: 761px;
 }
 .icon_3{
     position: absolute;
-    left: 4.17%;
-    right: 4.17%;
-    top: 12.46%;
-    bottom: 12.78%;
-    padding-top: 1115px;
-    padding-left: 723px;
+    padding-top: 200px;
+    padding-left: 786px;
     color: #101010;  
 }
 .we{
