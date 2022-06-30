@@ -1,0 +1,158 @@
+body{
+    background-color: #272525;
+    line-height: 1;
+    
+}
+.container1, .container2{
+    width: 800px;
+    margin-top: 10vh;
+    margin-left: 10vh;
+   
+}
+.container3{
+    width: 800px;
+    margin-top: 10vh;
+    margin-left: 10vh;
+   
+}
+.table{
+    
+    border: 1px solid gray;
+    width: 100%;
+	margin-bottom: 20px;
+    height: 30vh;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    
+}
+
+.downarrow{
+    
+    width: 11px;
+    padding-left: 3px;
+    align-items: center;
+
+}
+.t1{
+    width: 120vh;
+    text-align: start;
+    padding-left: 2vh;
+    border-bottom: 1px solid grey;
+    font-weight: 700;
+    vertical-align: middle;
+    color:lightgray;
+}
+.th{
+    height: 7.5vh;
+    text-align: left;
+    width: 100vh;
+    
+    border-bottom: 1px solid grey;
+    padding-left: 15px;
+    color: lightgray;
+    font-size: 14px;
+}
+.t2{
+    width: 100vh;
+    border-bottom: 1px solid grey;
+    padding-left: 2vh;
+    text-align: start;
+    padding-left: 2vh;
+    font-weight: 700;
+    vertical-align: middle;
+    color: lightgray;
+}
+.pointers{
+    
+    border-bottom: 1px solid grey;
+    padding-right: 15px;
+    text-align: right;
+}
+.t3{
+    
+    border-bottom: 1px solid grey;
+    padding-left: 2vh;
+    vertical-align: middle;
+}
+
+.t4{
+    
+    border-bottom: 1px solid grey;
+    padding-left: 2vh;
+    vertical-align: middle;
+}
+.t5{
+    padding-left: 2vh;
+    vertical-align: middle;
+}
+.t6{
+    padding-left: 2vh;
+    vertical-align: middle; 
+}
+.tr{
+    display: table-row;
+    font-size: 14px;
+    height: 7.5vh
+}
+.pointers_special{
+    
+    vertical-align: middle;
+}
+
+.pointers{
+    vertical-align: middle;
+}
+.first{
+    height: 8vh;
+    
+}
+table{
+    border-radius: 10px;
+}
+.minus_icon{
+    width: 13px;
+    height: 13px;
+    margin-left: 1vh;
+    margin-right: 1vh;
+}
+.check{
+    background-color: lightgray;
+    border-radius: 2px;
+}
+.box{
+    width: 21px;
+    vertical-align: text-bottom;
+}
+.search{
+    width: 185px;
+    height: 6vh;
+    border-radius: 5px;
+    background-color: rgb(61, 61, 61);
+    color: rgb(99, 99, 99);
+    border: 0px;
+    padding-right: 1vh;
+}
+.t7{
+    width: 280vh;
+    text-align: start;
+    padding-left: 2vh;
+    border-bottom: 1px solid grey;
+    font-weight: 700;
+    vertical-align: middle;
+    color:lightgray;
+}
+.pointer{
+    padding-right: 15px;
+    text-align: right;
+    vertical-align: middle;
+}
+.pointer_search{
+    padding-right: 5px;
+    text-align: right;
+    vertical-align: middle;
+    border-bottom: 1px solid grey;
+}
+[ngost-ryr-c24]
+{font-family: Open Sans,sans-serif;
+    color: #121212;}
