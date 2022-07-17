@@ -727,3 +727,8 @@ footer{
 .second-right > p{
 margin: 20px 0 0 0 ;
 }
+@media (max-width: 1900px){
+    
+    .third-right img {
+        width: 720px;
+        height: 100%;}}
