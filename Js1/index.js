@@ -47,7 +47,7 @@ let discount = (price * randomValue)/100;
 console.log(`Сума до оплати зі знижкою: ${price.toFixed() - discount.toFixed()}`);
 
 // чистий прибуток
-let cost = price.toFixed()/2,
+let cost = price.toFixed()/2;
 let rebate = (price * randomValue)/100;
 console.log(`Чистий прибуток: ${(cost-rebate).toFixed()}`);
 
