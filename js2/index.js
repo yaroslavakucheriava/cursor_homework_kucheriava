@@ -7,7 +7,7 @@ while (isNaN(firstNumber)) {
 let lastNumber = parseInt(prompt('Enter your last number'), 100);
 
 while (isNaN(lastNumber) || lastNumber <= firstNumber) {
-    lastNumber = parseInt(prompt('Enter your number again'), 10)
+    lastNumber = parseInt(prompt('Enter your number again'), 100)
 }
 console.log(firstNumber);
 console.log(lastNumber);
