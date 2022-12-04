@@ -1,38 +1,39 @@
 // створити 3 змінні
-let PeachPrice = 15.678,
-    GrapePrice = 123.965,
-    MangoPrice = 90.2345;
+let peachPrice = 15.678,
+    grapePrice = 123.965,
+    mangoPrice = 90.2345,
     amount = 3;
+    
 
 // максимальне число    
-    console.log(`Максимальна ціна: ${Math.max(PeachPrice, GrapePrice, MangoPrice)}`);
+    console.log(`Максимальна ціна: ${Math.max(peachPrice, grapePrice, mangoPrice)}`);
 
 // мінімальне число
-    console.log(`Мінімальна ціна: ${Math.min(PeachPrice, GrapePrice, MangoPrice)}`);
+    console.log(`Мінімальна ціна: ${Math.min(peachPrice, grapePrice, mangoPrice)}`);
 
 // вартість всіх товарів
-    Price = PeachPrice + GrapePrice + MangoPrice;
-    console.log(`Вартість всіх товарів: ${Price}`);    
+let price = peachPrice + grapePrice + mangoPrice;
+    console.log(`Вартість всіх товарів: ${price}`);    
     
 // округлення вартості товарів в меншу сторону    
-let PeachValue = Math.floor(PeachPrice);
-    GrapeValue = Math.floor(GrapePrice);
-    MangoValue = Math.floor(MangoPrice);
-    Value = PeachValue + GrapeValue + MangoValue;
-    console.log(`Округлена вартість до меншого: ${Value}`);
+let peachValue = Math.floor(peachPrice),
+    grapeValue = Math.floor(grapePrice),
+    mangoValue = Math.floor(mangoPrice),
+    value = peachValue + grapeValue + mangoValue;
+    console.log(`Округлена вартість до меншого: ${value}`);
 
 // сума товарів округлена до сотень    
-    console.log(`Округлена вартість до сотень: ${Math.round(Value/100)*100}`);
+    console.log(`Округлена вартість до сотень: ${Math.round(value/100)*100}`);
      
 // boolean
-    console.log(`Вартість товарів - парне число: ${Value % 2 === 0}`);
-    console.log(`Вартість товарів - непарне число: ${Value % 2 === 1}`);
+    console.log(`Вартість товарів - парне число: ${value % 2 === 0}`);
+    console.log(`Вартість товарів - непарне число: ${value % 2 === 1}`);
 
 // сума решти, при оплаті всіх товарів сумою 500   
-    console.log(`Сума решти при оплаті всіх товарів з 500, без округлення: ${500-Price}`);
+    console.log(`Сума решти при оплаті всіх товарів з 500, без округлення: ${500-price}`);
 
 // середнє значення цін, округлене до 2го знаку
-    let average = (Price/amount).toFixed(2);
+    let average = (price/amount).toFixed(2);
     console.log(`Середнє арифметичне:${average}`);
    
 // випадкова знижка
@@ -42,9 +43,11 @@ const randomValue = (maxValue - minValue) * Math.random() + minValue;
 console.log(`Випадкова знижка: ${randomValue.toFixed()}`);
 
 // випадкова знижка + сума до оплати
-console.log(`Сума до оплати зі знижкою: ${(Price.toFixed() - ((Price * randomValue)/100)).toFixed()}`);
+let discount = (price * randomValue)/100;
+console.log(`Сума до оплати зі знижкою: ${price.toFixed() - discount.toFixed()}`);
 
 // чистий прибуток
-cost = Price.toFixed()/2;
-console.log(`Чистий прибуток: ${cost-((Price * randomValue)/100).toFixed()}`);
+let cost = price.toFixed()/2,
+rebate = (price * randomValue)/100;
+console.log(`Чистий прибуток: ${(cost-rebate).toFixed()}`);
 

@@ -5,14 +5,15 @@ const themes = ["Диференційне рівняння", "Теорія ав�
 const marks = [4, 5, 5, 3, 4, 5];
 
 // Розділити студентів на пари
-
-function pairs(){
+debugger
+function pairs(students){
     const maleArray = [];
     const femaleArray = [];
     const pair = [];
-
+    
     for (let i = 0; i < students.length; i++) {
-        if (students[i].endsWith("а")) {
+    const isFemale = students[i].endsWith("а");
+        if (isFemale) {
             femaleArray.push(students[i]);
             continue;
         }
@@ -20,7 +21,7 @@ function pairs(){
     }
     
     for (let i = 0; i < femaleArray.length; i++) {
-        pair[i] = [maleArray[i], femaleArray[i]];
+        pair.push(maleArray[i], femaleArray[i]);
     }
     return pair;
 }
@@ -32,7 +33,7 @@ console.log(studentsPairs);
 function themesForStudentPairs(studentsPairs){
     const pairThemes = [];
     for(let i = 0; i < studentsPairs.length; i++) {
-        let conglutination = studentsPairs[i].join(" i ");
+        conglutination = studentsPairs[i].join(" i ");
         pairThemes.push([conglutination, themes[i]]);
     }
     return pairThemes;
@@ -59,8 +60,10 @@ function getRandomNumber(min, max) {
   
 function randomMark(studentsThemes) {
    const randomThemesResult = [];
+   const minMark = 1;
+   const maxMark = 5;
    for (let i = 0; i < studentsThemes.length; i++) {
-      let randomThemesScore = getRandomNumber(0, marks.length - 1);
+      let randomThemesScore = getRandomNumber(0, minMark, maxMark);
       randomThemesResult.push(studentsThemes[i].concat(randomThemesScore));
    }
    return randomThemesResult;
